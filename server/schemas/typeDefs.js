@@ -16,7 +16,6 @@ const typeDefs = gql`
     subscribeToMailingList(email: String!, preferences: String): MailingList
   }
   
-  # Your other typeDefs here...
 `;
 
 module.exports = typeDefs;
